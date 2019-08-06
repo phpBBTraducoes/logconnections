@@ -4,7 +4,7 @@
 * @package Log Connections
 * @copyright (c) 2017 david63
 * * @license GNU General Public License, version 2 (GPL-2.0)
-* Brazilian Portuguese translation by eunaumtenhoid [2019][ver 2.1.0-rc2] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by eunaumtenhoid [2019][ver 2.1.0-rc4] (https://github.com/phpBBTraducoes)
 */
 
 /**
@@ -37,16 +37,21 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
+	'ERROR_LOGIN_ACTIVE'			=> '<strong>Usuário inativo tentou fazer login</strong>',
 	'ERROR_LOGIN_ATTEMPTS'			=> '<strong>O usuário excedeu as tentativas de login</strong>',
 	'ERROR_LOGIN_PASSWORD'			=> '<strong>O usuário digitou uma senha incorreta</strong>',
 	'ERROR_LOGIN_PASSWORD_CONVERT'	=> '<strong>Erro de conversão de senha</strong>',
 	'ERROR_LOGIN_UNKNOWN'			=> '<strong>Ocorreu um erro de login (%1$s) inesperado</strong><br />» %2$s',
 	'ERROR_LOGIN_USERNAME'			=> '<strong>Nome de usuário inválido foi inserido</strong><br />» %1$s',
 
+    'LOG_AUTO_LOGIN'				=> '<strong>Login automático do usuário</strong>',
+	'LOG_AUTO_LOGIN_BROWSER'		=> '<strong>Login automático do usuário</strong><br>» %1$s',
 	'LOG_CONNECTIONS'				=> 'Log de conexões',
 	'LOG_CONNECTIONS_LOG'			=> '<strong>Configurações do Log de conexões atualizadas</strong>',
 	'LOG_NEW_USER_CREATED'			=> '<strong>Novo usuário criado</strong>',
-	'LOG_SUCCESSFUL'				=> '<strong>login realizado com sucesso</strong>',
+	'LOG_SUCCESSFUL'				=> '<strong>Usuário logado com sucesso</strong>',
+	'LOG_SUCCESSFUL_BROWSER'		=> '<strong>Usuário logado com sucesso</strong><br>» %1$s',
+	'LOG_USER_LOGOUT'				=> '<strong>Usuário desconectado</strong>',
 
 	'MANAGE_DEFAULTS'				=> 'Gerenciar configurações',
 ));
